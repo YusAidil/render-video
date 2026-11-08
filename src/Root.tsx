@@ -1,9 +1,15 @@
-import { MyComposition } from "./Composition";
+import React from "react";
+import { Composition } from "remotion";
+import { SkillIntro } from "./SkillIntro";
+import { DURATION_FRAMES, FPS, HEIGHT, WIDTH } from "./config";
 
-export const RemotionRoot: React.FC = () => {
-  return (
-    <>
-      <MyComposition />
-    </>
-  );
-};
+export const Root: React.FC = () => (
+  <Composition
+    id="SkillRemotion"
+    component={SkillIntro}
+    durationInFrames={DURATION_FRAMES}
+    fps={FPS}
+    width={WIDTH}
+    height={HEIGHT}
+  />
+);

@@ -1,0 +1,5 @@
+Letakkan file suara, gambar, atau video yang dipakai kode di folder ini.
+Gunakan nama file yang sama persis dengan yang diminta di kode.
+Contoh: voice.wav
+
+Video contoh bawaan tidak memerlukan file suara atau gambar.
