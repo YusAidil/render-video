@@ -77,7 +77,14 @@ dan durasi sesuai dengan video yang sebenarnya.
 - `package.json` dan `package-lock.json`: daftar paket untuk proyek.
 - `node_modules`: paket yang terpasang, ukurannya bisa cukup besar.
 
-## 5. Google Drive dan internet
+## 5. Lisensi
+
+Kode proyek ini dilisensikan dengan MIT; lihat file `LICENSE`. File
+`public/voice.wav` dilisensikan terpisah dengan Creative Commons Attribution
+4.0 International (CC BY 4.0); lihat `LICENSE-VOICE.txt`. Saat menggunakan
+atau membagikan suara, cantumkan atribusi kepada Yus Aidil.
+
+## 6. Google Drive dan internet
 
 Google Drive bisa dipakai untuk mencadangkan proyek. Simpan setidaknya kode,
 file panduan/tombol, `package.json`, `package-lock.json`, konfigurasi, serta
@@ -92,7 +99,7 @@ Setelah Node.js, paket, browser render, serta semua media dan font yang digunaka
 tersedia di laptop, proyek yang tidak bergantung pada URL atau layanan online
 dapat dirender tanpa internet dan tanpa AI.
 
-## 6. Jika ada masalah
+## 7. Jika ada masalah
 
 - **Node.js/npm tidak ditemukan:** install Node.js LTS lalu buka ulang terminal
   atau VS Code. Periksa kembali bahwa Node.js sudah masuk ke PATH Windows.
